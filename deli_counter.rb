@@ -24,7 +24,7 @@ def now_serving(katz_deli)
   if katz_deli.count == 0
     puts "There is nobody waiting to be served!"
   else
-    katz_deli_wait = katz_deli.first.pop
+    katz_deli_wait = katz_deli.
     katz_deli_wait
   end
 end
