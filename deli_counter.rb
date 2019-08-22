@@ -25,6 +25,6 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else
     katz_deli = (katz_deli.count - 1)
-    return katz_deli
+    katz_deli
   end
 end
