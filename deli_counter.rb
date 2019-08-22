@@ -24,5 +24,6 @@ def now_serving(katz_deli)
   if katz_deli.count == 0
     puts "The line is empty."
   else
-    katz_deli = katz_deli.count - 1
-    
+    katz_deli.count = katz_deli - 1
+  end
+end
