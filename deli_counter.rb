@@ -17,3 +17,4 @@ def take_a_number(katz_deli, name)
   else katz_deli << name
     puts "Welcome, #{name}. You are #{katz_deli.length} person in line."
 end
+end
