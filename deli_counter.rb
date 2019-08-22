@@ -22,3 +22,4 @@ end
 
 def now_serving
   if katz_deli.count == 0
+    puts "The line is empty."
